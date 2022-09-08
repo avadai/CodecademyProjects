@@ -1,0 +1,19 @@
+using System;
+
+namespace Review
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {      
+        Console.WriteLine("What is your birthMonth?");
+        string birthMonth = Console.ReadLine();
+
+        Console.WriteLine("What is your birth day?");
+        string birthday = Console.ReadLine();
+        string message = (birthMonth == "8" && birthday == "1") ? "HAPPY BIRTHDAY!!" : "Have a great day!";
+        
+        Console.WriteLine(message);
+    }
+  }
+}
