@@ -1,0 +1,10 @@
+var pesos: Double = 15.0
+var reais: Double = 20.0
+var soles: Double = 13.0
+var total: Double = 0
+var pesosToUSD: Double = pesos / 20
+var reaisToUSD: Double = reais / 5.26315789
+var solesToUSD: Double = soles / 3.84615385
+total = pesosToUSD + reaisToUSD + solesToUSD
+
+print("US Dollars = $\(total)")
