@@ -1,0 +1,13 @@
+// This is a variable that stores an integer for the age of the dog.
+var dogAge: Int = 5
+
+// The first two years of a dog’s life count as 21 human years.
+var earlyYears: Int = 21
+
+
+var laterYears: Int = (dogAge - 2) * 4
+
+
+var humanYears: Int = earlyYears + laterYears
+
+print("My name is Misty! Ruff ruff, I am \(humanYears) years old in human years.")
