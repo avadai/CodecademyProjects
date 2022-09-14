@@ -1,0 +1,6 @@
+var weightInKg: Double = 74.8427
+var heightInM: Double = 70
+var heightSquared: Double = heightInM * heightInM
+var bmi: Double = weightInKg/heightSquared
+
+print("My weight in kilograms is \(weightInKg), and my height in meters is \(heightInM). My BMI is \(bmi).")
