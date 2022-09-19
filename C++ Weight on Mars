@@ -1,0 +1,10 @@
+#include <iostream>
+
+int main() {
+  // Add your code below
+  int weight;  
+  std::cout << "Enter a weight: ";
+  std::cin >> weight;
+  int marsWeight = weight / 3;
+  std::cout << "Your weight on mars is " << marsWeight << "\n";
+}
