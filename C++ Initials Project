@@ -1,0 +1,12 @@
+#include <iostream>
+
+int main() {
+// My name is Andrew Vadai, and I am striving to become a full-fledged Software Engineer.
+std::cout << " AAA   V   V\n";
+std::cout << "A   A  V   V\n";
+std::cout << "A   A  V   V\n";
+std::cout << "AAAAA  V   V\n";
+std::cout << "A   A  V   V\n";
+std::cout << "A   A   V V \n";
+std::cout << "A   A    V  \n";
+}
