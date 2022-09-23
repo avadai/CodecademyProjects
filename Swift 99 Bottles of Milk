@@ -1,0 +1,12 @@
+// Write your code below 🥛
+var numBottles: Int = 99
+while numBottles > 0 {
+  print("\(numBottles) bottles of milk on the wall, \(numBottles) bottles of milk!")
+print("You take one down and pass it around… \(numBottles) bottles of milk on the wall!")
+  numBottles -= 1
+  print("\(numBottles) bottles of milk on the wall")
+}; if numBottles == 0 {
+  print("\(numBottles) bottles of milk!")
+  print("Go to the store and buy some more,")
+  print("99 bottles of milk on the wall!")
+};
