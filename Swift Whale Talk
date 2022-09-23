@@ -1,0 +1,23 @@
+// Create your Whale Talk program below:
+var input = "Hello, my name is Andrew Vadai";
+var output = "";
+
+for char in input {
+  let lowerChar = char.lowercased()
+
+  switch lowerChar {
+  case "a", "i", "o":
+    output += lowerChar.uppercased()
+    break;
+  case "e":
+    output += "EE"
+    break;
+  case "u":
+    output += "UU"
+    break;
+  default:
+    continue
+  }
+}
+
+print(output)
